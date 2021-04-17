@@ -9,5 +9,5 @@ def turn_count(board)
 end
 
 def current_player(board)
-  if current_player
+  if turn_count(board)
   
